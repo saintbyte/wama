@@ -1,7 +1,7 @@
 {
   "name": "Web App Monitoring App",
   "description": "check you web app endpoint by crontab",
-  "repository": "https://github.com/saintbyte/carrier-analyzer",
+  "repository": "https://github.com/saintbyte/wama",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["python",
 ]
