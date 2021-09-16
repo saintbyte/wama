@@ -23,6 +23,11 @@ def read_root():
     return {"Hello": "World"}
 
 
+@app.get("/api/v1/verify_magic_key/")
+def verify_magic_key():
+    return {"result": True}
+
+
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Optional[str] = None):
     return {"item_id": item_id, "q": q}
